@@ -22,7 +22,7 @@ almacenado en la tabla
 
 * [Java](https://www.java.com/en/)
 * [Spring](https://spring.io/)
-* [PL7/SQL](https://www.oracle.com/co/database/technologies/appdev/plsql.html)
+* [PL/SQL](https://www.oracle.com/co/database/technologies/appdev/plsql.html)
 * [JPA](https://spring.io/projects/spring-data-jpa)
 
 ## Dependencias
@@ -31,14 +31,14 @@ almacenado en la tabla
 * Spring - Version: 3.1.5
 * Maven - Version: 3.8.6 (Optional)
 
-# Http routes
+# Http rutas
 
 ## consultar un registro
 > GET
 
 ```/{id}```
 
-Retun:
+Return:
 
 ```json
 {
@@ -54,7 +54,7 @@ Retun:
 
 ```/```
 
-Retun:
+Return:
 
 ```json
 [
@@ -86,7 +86,7 @@ Body:
 }
 ```
 
-Retun:
+Return:
 
 ```json
 {
@@ -102,7 +102,7 @@ Retun:
 
 ```/{id}```
 
-Retun:
+Return:
 
 ```
 Status 200
